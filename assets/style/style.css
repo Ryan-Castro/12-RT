@@ -45,7 +45,8 @@ main{
     margin-top: 20px;
     background-color: #CBE0C2 ;
     width: 70%;
-    height: 1000px;
+    height: 100%;
+    padding: 15px;
 }
 .seletor{
     position: relative;
@@ -63,10 +64,10 @@ ul.sub-list{
 }
 
 ul.active{
-    max-height: 300px;
+    max-height: 500px;
     display: flex !important;
     flex-direction: column;
-    
+    overflow: visible;
     
     
     background-color: white;
@@ -80,3 +81,28 @@ ul.sub-list>li:hover{
     text-shadow: 1px 1px 1px black;
     background-color: gray;
 }
+
+main>div{
+    display: none;
+    text-align: center;
+    
+}
+
+main>div>p{
+    text-align: justify;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    text-indent: 15px;
+}
+
+.historia h1{
+    margin-bottom: 5px;
+}
+
+.historia ul{
+    text-align: justify;
+    padding-left: 10px;
+    margin-bottom: 5px;
+
+}
+
