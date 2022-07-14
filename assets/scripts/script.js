@@ -7,6 +7,7 @@ update()
 
 function update() {
     var largura = window.innerWidth;
+    console.log(largura)
     $("main>div").hide()
     id = $(".select").attr("id")
     $("." + id).show()
