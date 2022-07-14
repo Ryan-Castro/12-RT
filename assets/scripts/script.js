@@ -22,6 +22,9 @@ function update() {
             <li class="select" id="${id}">${select}</li>
             <li class="seletor" id="more">
             Mais
+            <span class="material-symbols-outlined">
+                expand_more
+            </span>
             <ul class="sub-list more">
             <li>
             </li>
@@ -31,7 +34,7 @@ function update() {
 
         $("ul").css({
             "grid-template-columns": "auto auto",
-            "text-align": "center"
+            "text-align": "center",
         })
 
         $("nav>ul>li.select").css({
