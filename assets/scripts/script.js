@@ -76,7 +76,7 @@ function events() {
     $("li").not(".seletor").click((e) => {
         $("li.select").removeClass("select")
         e.target.classList.add("select")
-
+        select = $(".select").html()
         update()
     })
     select = $(".select").html()
