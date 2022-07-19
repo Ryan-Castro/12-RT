@@ -14,7 +14,7 @@
 <body>
     <div class="conteiner">
         <header>
-            <img src="assets/imagens/capa.jpeg" alt="">
+            <img src="assets/imagens/capaeditada.jpeg" alt="">
             <nav>
                 <ul class="list">
                     <li class="select" id="inicio">Início</li>
@@ -24,28 +24,29 @@
                         <span class="material-symbols-outlined">
                             expand_more
                         </span>
-                        <ul class="sub-list itens documentos">
+                        <ul class="sub-list itens documentos" id="documentos">
                             <li id="estatuto">Estatuto</li>
-                            <li>Atas</li>
-                            <li>Regulamentos</li>
-                            <li>Ficha Solicitação de cartão</li>
-                            <li>Carta de Desligamento</li>
+                            <li id="atas">Atas</li>
+                            <li id="regulamentos">Regulamentos</li>
+                            <li id="cartao">Ficha Solicitação de cartão</li>
+                            <li id="desligamento">Carta de Desligamento</li>
                         </ul>
                     </li>
-                    <li>Entidades</li>
-                    <li>Coordenadoria</li>
-                    <li>Prendado</li>
-                    <li>Calendário</li>
+                    <li id="entiidades">Entidades</li>
+                    <li id="coordenadoria">Coordenadoria</li>
+                    <li id="prendado">Prendado</li>
+                    <li id="calendario">Calendário</li>
                     <li class="seletor" id="transparencia">
                         Transparencia
                         <span class="material-symbols-outlined">
                             expand_more
                         </span>
-                        <ul class="sub-list itens transparencia">
-                            <li>Fluxo caixa Mensal</li>
-                            <li>Balancetes semestrais</li>
+                        <ul class="sub-list itens transparencia" id="transparencia">
+                            <li id="fluxoCaixa">Fluxo caixa Mensal</li>
+                            <li id="balancetes">Balancetes semestrais</li>
                         </ul>
                     </li>
+                    <li><a href="./admin/login.html">Gerenciar</a></li>
                 </ul>
             </nav>
             <h4>Telefone de Contato do Coordenador: ***********</h4>
@@ -194,8 +195,41 @@
                 <li>2016 - Jorge Ferreira Peixoto;</li>
                 </ul>
             </div>
+            <div class="estatuto">
+
+            </div>
+            <div class="atas">
+
+            </div>
+            <div class="regulamentos">
+
+            </div>
+            <div class="desligamento">
+
+            </div>
+            <div class="entidades">
+
+            </div>
+            <div class="coordenadoris">
+
+            </div>
+            <div class="prendado">
+
+            </div>
+            <div class="calendario">
+
+            </div>
+            <div class="fluxoCaixa">
+
+            </div>
+            <div class="balancetes">
+
+            </div>
+
         </main>
     </div>
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-storage.js"></script>
     <script src="./assets/scripts/script.js"></script>
 </body>
 
