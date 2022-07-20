@@ -90,7 +90,7 @@ function recarregar(){
         $(".sub-list").html(subList)
 
         $("ul").css({
-            "grid-template-columns": "auto auto",
+            "grid-template-columns": "1fr 1fr",
             "text-align": "center",
         })
 

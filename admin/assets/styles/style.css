@@ -113,7 +113,9 @@ td, th{
     margin: 0px;
     padding: 5px;
 }
-
+td{
+    font-size: 80%;
+}
 #form{
     order: 1;
 }
@@ -128,11 +130,6 @@ td, th{
     font-size: 20px;
     text-shadow: 1px 1px 1px black;
 }
-
-tr.concluido{
-    background-color: gray;
-}
-
 .modal{
     background-color: rgba(0, 0, 0, 0.3);
     width: 100vw;
@@ -141,6 +138,7 @@ tr.concluido{
     justify-content: center;
     align-items: center;
     position: absolute;
+    z-index: 9;
 }
 
 .modal>section{
@@ -150,18 +148,22 @@ tr.concluido{
     flex-direction: column;
     padding: 20px;
 }
-
-section>input{
-    margin-bottom: 10px;   
+section>input#arquivo{
+    padding: 0px;
+}
+section>input, select{
+    margin-top: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
 }
 #delet{
-    width: 60%;
+    width: 90%;
     padding: 15px;
     background-color: red;
     border: 1px solid rgb(190, 0, 0);
     color: white;
     text-shadow: 1px 1px 1px black;
-    font-size: 20px;
+    font-size: 80%;
 }
 
 #titulo{
